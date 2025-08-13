@@ -1,0 +1,37 @@
+.card{
+    background-color: black;
+    color: white;
+    width: 33vw;
+    height: 95vh;
+    border-radius: 10px;
+}
+
+.kalam{
+    display: flex;
+    background-color: beige;
+    color: black;
+    width: 90%;
+
+    margin: 20px auto;
+    border-radius: 15px;
+
+    
+}
+
+.oggy{
+    display: flex;
+    
+    
+}
+
+.harry{
+    display: flex;
+    
+    
+}
+
+body{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
