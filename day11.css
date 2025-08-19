@@ -1,0 +1,37 @@
+body{
+    background-color: green;
+    height: 100vh;
+    display: flex;
+    justify-content:center;
+    align-items: center;
+}
+.card{
+    background-color: greenyellow;
+    width: 33%;
+    height: 44%;
+    display: flex;
+    justify-content:center;
+    align-items: center;
+}
+.input{
+    width: 180px;
+    margin: 0px 20px;
+    padding: 7px;
+    outline: none;
+    border: none;
+}
+.btn{
+    background-color:wheat ;
+    color:red;
+    padding: 7px;
+    width: 80px;
+    border: none;
+    border-radius: 25px;
+    box-shadow: 0px 0px 10px rgba(red, rgb(156, 179, 156), blue, alpha);
+}
+.result{
+    width: 90px;
+    height: 30px;
+    background-color: beige;
+    color: black;
+}

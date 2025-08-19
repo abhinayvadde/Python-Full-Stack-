@@ -1,0 +1,12 @@
+.rahul{
+    display: flex;
+     background-color:#fb4e71 ;
+}
+.body{
+    background-color: aqua;
+    text-transform: capitalize;
+}
+
+.card{
+    display: flex;
+}

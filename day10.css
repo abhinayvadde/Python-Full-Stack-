@@ -1,0 +1,56 @@
+#root{
+  display: flex;
+  flex-direction: column;
+  height: 100vh;
+  width: 30%;
+}
+.card{
+  background-color: black;
+  height: 300px;
+  width:120px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+.container{
+  min-width: 300px;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.5);
+  border-radius: 20px;
+  height: 200px;
+  margin: 20px;
+  border: white 2px solid;
+}
+.buttons{
+  display: flex;
+  flex-direction: column;
+  justify-content: space-around;
+  align-items: center;
+  height: 300px;
+  width:120px;
+}
+
+.grey{
+  background-color: grey;
+  height: 60px;
+  width: 60px;
+  border-radius: 50%;
+}
+.green{
+  background-color: green;
+}
+.orange{
+  background-color: orange;
+}
+.red{
+  background-color: red;
+}
+
+button{
+  width: 100px;
+  padding: 10px;
+  color: white;
+  border: none;
+  border-radius: 15px;
+  cursor: pointer;
+}

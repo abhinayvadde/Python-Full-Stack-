@@ -1,0 +1,53 @@
+          #root{
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+}
+.card{
+  background-color: black;
+  height: 300px;
+  width:120px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  border-radius: 15px;
+}
+.container{
+  display: flex;
+}
+.buttons{
+  display: flex;
+  flex-direction: column;
+  justify-content: space-around;
+  align-items: center;
+  height: 300px;
+  width:120px;
+}
+
+.grey{
+  background-color: grey;
+  height: 60px;
+  width: 60px;
+  border-radius: 50%;
+}
+.green{
+  background-color: green;
+}
+.orange{
+  background-color: orange;
+}
+.red{
+  background-color: red;
+}
+
+button{
+  width: 100px;
+  padding: 10px;
+  color: white;
+  border: none;
+  border-radius: 15px;
+  cursor: pointer;
+}
